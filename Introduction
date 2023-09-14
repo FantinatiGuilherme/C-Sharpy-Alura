@@ -1,0 +1,168 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HelloWorld
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+                        --- Declaração de varivaveis e tipos ---
+
+
+            //Int - Numeros inteiros positivos ou negativos 
+            //Float - Numeros decimais
+            //Bool - True ou False
+            //String - "Hello World!"
+            //Char 'a'
+
+            int segundaGuerraMundial = 1942;
+            string corFavorita = "Vermelho";
+            float velocidadeF1 = 294.48f;
+            bool segundaGuerraAconteceu = true;
+
+            Console.WriteLine(segundaGuerraMundial);
+            Console.WriteLine(corFavorita);
+            Console.WriteLine(velocidadeF1);
+            Console.WriteLine(segundaGuerraAconteceu);
+
+            velocidadeF1 = 348.29f;
+            corFavorita = "Roxo";
+
+            Console.WriteLine(velocidadeF1);
+            Console.WriteLine(corFavorita);
+
+----------------------------------------------------------------------------------------------------------
+
+                        --- Outras Maneiras de declaração ---
+
+                      ? A Linguagem descobre o tipo de variavel?
+            
+
+            var cor_favorita = "Vermelho";
+            var modeloProduto = 2323;
+            
+                      ? O dynamic pode armazenar varios tipos de varias diferentes ?
+                      OBS:  NAO UTILIZAR, FOGE MUITO DO PADRÃO DA LINGUAGEM 
+
+            dynamic corFavorita = "Vermelho";
+            Console.WriteLine(corFavorita);
+
+            corFavorita = 212331515351;
+            Console.WriteLine(corFavorita);
+
+----------------------------------------------------------------------------------------------------------
+
+                        --- Constantes ---
+
+                       ? Utilizado para armazenar dados que são constantes ?
+            
+
+            const float PI = 3.141592;
+
+----------------------------------------------------------------------------------------------------------
+
+                        --- Entrada usuario ---
+
+            
+            Console.WriteLine("Escreva seu nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine(nome);
+
+----------------------------------------------------------------------------------------------------------
+
+                        --- Operações Aritméticas ---
+
+            
+
+            int numero = 20 + 20 - 80;
+            int numeroMult = 10 * 90;
+            float numeroDiv = 5f / 2;
+
+            Console.WriteLine(numero);
+            Console.WriteLine(numeroMult);
+            Console.WriteLine(numeroDiv);
+
+----------------------------------------------------------------------------------------------------------
+
+                        --- Condicionais ---
+
+                            ? IF & ELSE ?
+            
+
+            int x = 0;
+
+             if (x > 0)
+            {
+                Console.WriteLine("O X é maior que 0");
+            }
+             else if (x == 0)
+            {
+                Console.WriteLine("O X é igual a 0");
+            }
+            else { Console.WriteLine("O X é menor do que 0");
+            }
+
+----------------------------------------------------------------------------------------------------------
+
+                        --- Operadores lógicos ---
+
+                        ? %% ==> E ou AND  || ==> OU ou OR ?
+
+            
+
+            int x = 10;
+            int y = -20;
+
+            if(x > 0 && x < 100)
+            {
+                Console.WriteLine("O valor de x é maior que 10 e menor que x");
+            }
+           
+            if(x < 0 || y < 0)
+            {
+                Console.WriteLine("Alguma das variaveis, ou as duas são negativas");
+            }
+
+----------------------------------------------------------------------------------------------------------
+
+                        --- Exercicio 1 ---
+                   ? Usuario digita a idade e informa se é criança adulto ou idoso ?
+            
+
+            Console.WriteLine("Digite sua idade :");
+
+            int idade = int.Parse(Console.ReadLine()); // Converter valor textual para número
+            
+            if(idade < 0)
+            {
+                Console.WriteLine("Idade indisponivel");
+            }
+            else if(idade >= 0 && idade <= 11)
+            {
+                Console.WriteLine("Você é uma criança");
+            }   
+            else if(idade >= 12 && idade < 18)
+            {
+                Console.WriteLine("Você é um adolescente");
+            }
+            else if(idade >= 18 && idade < 60)
+            {
+                Console.WriteLine("Você é um adulto");
+            }
+            else
+            {
+                Console.WriteLine("Você é um adulto");
+            }
+
+----------------------------------------------------------------------------------------------------------
+            */
+
+            Console.ReadLine();
+        }
+    }
+}
