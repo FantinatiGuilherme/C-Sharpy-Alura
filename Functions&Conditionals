@@ -1,0 +1,79 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Functions_Conditionals
+{
+    internal class Program
+    {
+        /*
+        static void Main(string[] args)
+        {
+            ExibirMsg();
+            ExibirMsg();
+
+            Console.ReadLine();
+        }
+
+        static void ExibirMsg () 
+        {
+            Console.WriteLine("Boa noite!!");
+            Console.WriteLine("Sou Guilherme de Oliveira Fantinati");
+        }
+    }
+
+---------------------------------------------------------------------------------------    
+        
+            static void Main(string[] args)
+            {
+
+            int x = 10;
+                
+                ExibirMsg();
+                ExibirMsg();
+
+                GerarPreco(x);
+                Concatenar(x);
+
+                Console.ReadLine();
+
+            }
+
+            static void ExibirMsg()
+            {
+                Console.WriteLine("Boa noite!!");
+                Console.WriteLine("Sou Guilherme de Oliveira Fantinati");
+            }
+
+            static void GerarPreco(int preco)
+        {
+            Console.WriteLine(preco);
+            int precoAbs = Math.Abs(preco); //Passar modulo, num positivo
+        }
+
+        static void Concatenar(int x)
+        {
+            Console.WriteLine("Valor é igual a " + x);
+        }
+
+---------------------------------------------------------------------------------------
+        */
+
+        static void Main(string[] args)
+        {
+            int x = 10;
+
+            int y = Somar(x);
+            Console.WriteLine(y);
+            Console.ReadLine();  
+        }
+
+        static int Somar(int x)
+        {
+            int y = 10 + x;
+            return y;
+        }
+    }
+}
