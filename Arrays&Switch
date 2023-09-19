@@ -1,0 +1,79 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Arrays_Switch
+{
+
+    /*
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+
+    -----------------------------------------------------------------------------------------------
+                            Utilização de arrays
+
+
+                string[] produtos = new string[5] { "Sea of thieves",
+                    "fifa",
+                    "Minecraft",
+                    "Portal",
+                    "Half-lif"
+            };
+
+                Console.ReadLine();
+
+    -----------------------------------------------------------------------------------------------
+                            Outra maneira de utilizar Arrays
+
+
+                int[] valores = { 40, 50, 60, 20 }; //array infinito
+
+    -----------------------------------------------------------------------------------------------
+                            Switches (Multiplas escolhas)
+
+
+
+                string cor = "vermelho";
+
+                switch (cor)
+                {
+                    case "azul":
+                        Console.WriteLine("Sua cor favorita é azul");
+                        break;
+
+                    case "vermelho":
+                        Console.WriteLine("Sua cor favorita é vermelho");
+                        break;
+
+                    case "amarelo":
+                        Console.WriteLine("Sua cor favorita é amarelo");
+                        break;
+                    default:
+                        Console.WriteLine("Não sabemos sua cor favorita");
+                    break;
+                }
+            Console.ReadLine();
+
+    -----------------------------------------------------------------------------------------------
+                        ENUM
+            */
+    internal class Program
+    {
+        enum cor {Azul, Verde, Amarelo, Vermelho} //Funciona como array
+
+        enum opcao { }
+        static void Main(string[] args)
+        {
+            cor corFavorita = cor.Amarelo;
+
+            Console.WriteLine(corFavorita);
+
+            Console.ReadLine();
+
+        }
+    }
+}
