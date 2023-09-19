@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Repetitions
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+--------------------------------------------------------------------------------------------------
+                        While (Enquanto)
+             
+
+            int x = 10;
+            while(x >= 0)
+            {
+                Console.WriteLine(x);
+                x--;
+            }
+            Console.ReadLine();
+
+--------------------------------------------------------------------------------------------------
+                        Do While (Faz pelo menos uma vez)
+            
+
+            int x = 10;
+
+            do { x++; Console.WriteLine(x); } while (x > 1000);
+            Console.ReadLine();
+
+--------------------------------------------------------------------------------------------------
+                        Foreach
+
+             
+            string[] nome = { "Victor", "Lima", "Guia do prog", "Formação", "Node" };
+
+            foreach (string me in nome) // Para cada palavra no array palavras, repita o bloco de codigo
+            {
+                Console.WriteLine(me);
+            }
+            Console.ReadLine();
+
+--------------------------------------------------------------------------------------------------
+                        For
+             */
+
+            for (int contador = 0; contador < 10;  contador++)
+            {
+                Console.WriteLine(contador);
+            }
+            Console.ReadLine();
+        }
+    }
+}
