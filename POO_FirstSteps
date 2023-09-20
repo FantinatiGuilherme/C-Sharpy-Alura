@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PósCurso
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            ContaCorrente contaGabriela = new ContaCorrente();
+
+            contaGabriela.titular = "Gabriela";
+            contaGabriela.agencia = 863;
+            contaGabriela.numero = 683452;
+            contaGabriela.saldo = 100;
+
+            Console.WriteLine(contaGabriela.titular);
+            Console.WriteLine("Agência : " + contaGabriela.agencia);
+            Console.WriteLine("Numero da Conta : " + contaGabriela.numero);
+            Console.WriteLine("Saldo : " + contaGabriela.saldo);
+
+            ContaCorrente contaGabrielaCosta = new ContaCorrente();
+
+            contaGabrielaCosta.titular = "Gabriela Costa";
+            contaGabrielaCosta.agencia = 863;
+            contaGabrielaCosta.numero = 863452;
+            contaGabrielaCosta.saldo = 100;
+
+            Console.WriteLine(contaGabrielaCosta == contaGabriela);
+            Console.WriteLine(contaGabrielaCosta.saldo == contaGabriela.saldo);
+            Console.WriteLine(contaGabrielaCosta);
+
+            contaGabriela = contaGabrielaCosta;
+            Console.WriteLine(contaGabriela == contaGabrielaCosta);
+
+            Console.WriteLine(contaGabriela.saldo);
+            Console.WriteLine(contaGabrielaCosta.saldo);
+
+            Console.ReadLine();            
+        }
+    }
+}
