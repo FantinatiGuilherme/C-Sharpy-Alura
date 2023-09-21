@@ -10,41 +10,57 @@ namespace PósCurso
     {
         static void Main(string[] args)
         {
-            ContaCorrente contaGabriela = new ContaCorrente();
+            /*    ContaCorrente contaGabriela = new ContaCorrente();
 
-            contaGabriela.titular = "Gabriela";
-            contaGabriela.agencia = 863;
-            contaGabriela.numero = 683452;
-            contaGabriela.saldo = 100;
+                contaGabriela.titular = "Gabriela";
+                contaGabriela.agencia = 863;
+                contaGabriela.numero = 683452;
+                contaGabriela.saldo = 100;
 
-            Console.WriteLine(contaGabriela.titular);
-            Console.WriteLine("Agência : " + contaGabriela.agencia);
-            Console.WriteLine("Numero da Conta : " + contaGabriela.numero);
-            Console.WriteLine("Saldo : " + contaGabriela.saldo);
+                Console.WriteLine(contaGabriela.titular);
+                Console.WriteLine("Agência : " + contaGabriela.agencia);
+                Console.WriteLine("Numero da Conta : " + contaGabriela.numero);
+                Console.WriteLine("Saldo : " + contaGabriela.saldo);
 
-            ContaCorrente contaGabrielaCosta = new ContaCorrente();
+                ContaCorrente contaGabrielaCosta = new ContaCorrente();
 
-            contaGabrielaCosta.titular = "Gabriela Costa";
-            contaGabrielaCosta.agencia = 863;
-            contaGabrielaCosta.numero = 863452;
-            contaGabrielaCosta.saldo = 100;
+                contaGabrielaCosta.titular = "Gabriela Costa";
+                contaGabrielaCosta.agencia = 863;
+                contaGabrielaCosta.numero = 863452;
+                contaGabrielaCosta.saldo = 100;
 
-            Console.WriteLine(contaGabrielaCosta == contaGabriela);
-            Console.WriteLine(contaGabrielaCosta.saldo == contaGabriela.saldo);
-            Console.WriteLine(contaGabrielaCosta);
+                Console.WriteLine(contaGabrielaCosta == contaGabriela);
+                Console.WriteLine(contaGabrielaCosta.saldo == contaGabriela.saldo);
+                Console.WriteLine(contaGabrielaCosta);
 
-            contaGabriela = contaGabrielaCosta;
-            Console.WriteLine(contaGabriela == contaGabrielaCosta);
+                contaGabriela = contaGabrielaCosta;
+                Console.WriteLine(contaGabriela == contaGabrielaCosta);
 
-            Console.WriteLine(contaGabriela.saldo);
-            Console.WriteLine(contaGabrielaCosta.saldo);
+                Console.WriteLine(contaGabriela.saldo);
+                Console.WriteLine(contaGabrielaCosta.saldo);
 
-            if(contaGabriela.saldo >= 100)
-            {
-            contaGabriela.saldo -= 100;
-            }
+                if(contaGabriela.saldo >= 100)
+                {
+                    contaGabriela.saldo -= 100;
+                }
 
-            Console.ReadLine();            
+
+
+                Console.ReadLine();            */
+
+            ContaCorrente contaBruno = new ContaCorrente();
+
+            contaBruno.titular = "Bruno almeida";
+            Console.WriteLine(contaBruno.saldo);
+            contaBruno.saldo = 1400;
+
+            Console.WriteLine(contaBruno.saldo);
+            contaBruno.saldo = 1400;
+
+            contaBruno.Sacar(50);
+            Console.Write(contaBruno.saldo);
+
+            Console.ReadLine();
         }
     }
 }
