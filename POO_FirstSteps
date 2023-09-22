@@ -46,7 +46,7 @@ namespace PósCurso
 
 
 
-                Console.ReadLine();            */
+                Console.ReadLine();           
 
             ContaCorrente contaBruno = new ContaCorrente();
 
@@ -62,6 +62,15 @@ namespace PósCurso
 
             contaBruno.Depositar(50);
             Console.WriteLine(contaBruno.saldo);
+
+             */
+
+            ContaCorrente ContaGuilherme = new ContaCorrente();
+
+            Console.WriteLine("Digite o valor da transferência : ");
+
+
+            ContaGuilherme.Transferir();
 
             Console.ReadLine();
         }
