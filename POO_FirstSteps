@@ -58,7 +58,10 @@ namespace PósCurso
             contaBruno.saldo = 1400;
 
             contaBruno.Sacar(50);
-            Console.Write(contaBruno.saldo);
+            Console.WriteLine(contaBruno.saldo);
+
+            contaBruno.Depositar(50);
+            Console.WriteLine(contaBruno.saldo);
 
             Console.ReadLine();
         }
