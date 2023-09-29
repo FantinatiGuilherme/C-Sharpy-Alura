@@ -8,7 +8,7 @@ namespace Estudos
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static Main(string[] args)
         {
             Task Triangulo = new Task();
             
@@ -32,8 +32,11 @@ namespace Estudos
             else
             {
                 Console.WriteLine("Esses valores não formam um triângulo.");
+                
             }
+
             Console.ReadLine();
+
         }
     }
 }
